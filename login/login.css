@@ -1,0 +1,25 @@
+.cargador, .cargador a {
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cargador img {
+
+    width: 7.571rem;
+    height: 3.68rem;
+
+}
+
+html, body {
+
+    height: 100%;
+    width: 100%;
+    margin: 1px solid black;
+    padding: 0;
+    
+  }

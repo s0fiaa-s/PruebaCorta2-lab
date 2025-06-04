@@ -7,12 +7,10 @@
     grid-template-columns: 6rem 1fr 6rem;
     grid-template-rows: 1fr 1fr;
     column-gap: 2rem;
-    align-items: center;
 
 }
 
 .btn-menu {
-
 
     grid-row-start: 1;
     grid-row-end: 3;
@@ -25,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 
 }
 
@@ -70,17 +67,20 @@
     height: 4.5rem;
     border-radius: 100%; 
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .cantidad-car {
 
-    width: 37px;
-    height: 37px;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: #fc6e2a;
     border-radius: 100%;
     color: white;
-    font-weight: 800;
+
     font-size: 1.6rem;
 
     display: flex;
@@ -89,18 +89,18 @@
 
     position: absolute;
     right: -2px;
-    top: -5px;
+    top: -3px;
 
 }
 
 .btn-icon {
 
-    width: 33px;
-    height: 33px;
+    width: 18px;
+    height: 20px;
 
     position: absolute;
-    top: 22px;
-    left: 20px;
+    top: 15px;
+    left: 13px;
     border-width: 2px;
 
 }

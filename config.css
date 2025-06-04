@@ -6,21 +6,20 @@
 
 }
 
-.html {
+html {
 
     font-size: 10px;
     font-family: monospace;
     
 }
 
-.body {
+body {
 
     margin: auto;
     width: 100%;
     max-width: 400px;
-
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 18px;
+    
 }
